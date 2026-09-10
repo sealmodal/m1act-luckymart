@@ -1,0 +1,98 @@
+CRITICAL - 2026-09-10 05:04:50 --> ErrorException: Undefined property: CodeIgniter\Autoloader\Autoloader::$load
+[Method: GET, Route: about]
+in APPPATH\Controllers\Pages.php on line 4.
+ 1 APPPATH\Controllers\Pages.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Autoloader\\Autoloader::$load', 'C:\\xampp\\htdocs\\m1act\\app\\Controllers\\Pages.php', 4)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\m1act\\app\\Controllers\\Pages.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\m1act\\app\\Controllers\\Pages.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pages')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pages')
+ 6 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Pages', true)
+ 7 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 12:01:33 --> ErrorException: Undefined variable $cust
+[Method: GET, Route: users]
+in APPPATH\Views\userlist.php on line 399.
+ 1 APPPATH\Views\userlist.php(399): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cust', 'C:\\xampp\\htdocs\\m1act\\app\\Views\\userlist.php', 399)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\m1act\\app\\Views\\userlist.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('userlist', [], true)
+ 5 APPPATH\Controllers\Users.php(36): view('userlist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->users()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 12:01:46 --> ErrorException: Undefined variable $cust
+[Method: GET, Route: users]
+in APPPATH\Views\userlist.php on line 399.
+ 1 APPPATH\Views\userlist.php(399): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cust', 'C:\\xampp\\htdocs\\m1act\\app\\Views\\userlist.php', 399)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\m1act\\app\\Views\\userlist.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('userlist', [], true)
+ 5 APPPATH\Controllers\Users.php(36): view('userlist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->users()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 12:02:14 --> ErrorException: Undefined variable $cust
+[Method: GET, Route: users]
+in APPPATH\Views\userlist.php on line 399.
+ 1 APPPATH\Views\userlist.php(399): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cust', 'C:\\xampp\\htdocs\\m1act\\app\\Views\\userlist.php', 399)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\m1act\\app\\Views\\userlist.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('userlist', [], true)
+ 5 APPPATH\Controllers\Users.php(36): view('userlist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->users()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 12:02:38 --> ErrorException: Undefined variable $cust
+[Method: GET, Route: users]
+in APPPATH\Views\userlist.php on line 399.
+ 1 APPPATH\Views\userlist.php(399): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cust', 'C:\\xampp\\htdocs\\m1act\\app\\Views\\userlist.php', 399)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\m1act\\app\\Views\\userlist.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('userlist', [], true)
+ 5 APPPATH\Controllers\Users.php(36): view('userlist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->users()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 12:04:48 --> ErrorException: Undefined variable $cust
+[Method: GET, Route: users]
+in APPPATH\Views\userlist.php on line 399.
+ 1 APPPATH\Views\userlist.php(399): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cust', 'C:\\xampp\\htdocs\\m1act\\app\\Views\\userlist.php', 399)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\m1act\\app\\Views\\userlist.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('userlist', [], true)
+ 5 APPPATH\Controllers\Users.php(36): view('userlist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->users()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 12:05:02 --> ErrorException: Undefined variable $cust
+[Method: GET, Route: users]
+in APPPATH\Views\userlist.php on line 399.
+ 1 APPPATH\Views\userlist.php(399): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cust', 'C:\\xampp\\htdocs\\m1act\\app\\Views\\userlist.php', 399)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\m1act\\app\\Views\\userlist.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('userlist', [], true)
+ 5 APPPATH\Controllers\Users.php(36): view('userlist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->users()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
